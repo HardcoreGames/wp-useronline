@@ -1,8 +1,12 @@
 <?php
 
+/* The general layout is display name. bot name */
+/* The number of known bots will be expanded extensively over time */
+
 function useronline_get_bots() {
 	$bots = array(
 		'360Spider' => '360spider',
+		'a6-indexer' => 'adda6-indexer',
 		'AddThis' => 'addthis',
 		'Adsbot' => 'Adsbot',
 		'AdScanner' => 'adscanner',
@@ -13,6 +17,7 @@ function useronline_get_bots() {
 		'Altavista' => 'scooter',
 		'Amazon' => 'amazonaws.com',
 		'Anders Pink' => 'anderspinkbot',
+		'aolbuild' => 'aolbuild',
 		'Apple' => 'applebot',
 		'Archive.org' => 'archive.org_bot',
 		'Ask Jeeves' => 'jeeves',
@@ -28,10 +33,12 @@ function useronline_get_bots() {
 		'Blog Search Engine' => 'blogsearch',
 		'BUbiNG' => 'bubing',
 		'Buck' => 'Buck',
+		'butterfly' => 'butterfly',
 		'CCBot' => 'ccbot',
 		'CFNetwork' => 'cfnetwork',
 		'CheckMarkNetwork' => 'CheckMarkNetwork',
 		'Cliqzbot' => 'cliqzbot',
+		'cloudflare' => 'cloudflare',
 		'Coccoc' => 'coccocbot',
 		'Crawl' => 'crawl',
 		'Curl' => 'Curl',
@@ -41,6 +48,7 @@ function useronline_get_bots() {
 		'DomainCrawler' => 'domaincrawler',
 		'DotBot' => 'dotbot',
 		'DuckDuckGo' => 'duckduckbot',
+		'embedly' => 'embedly',
 		'EveryoneSocialBot' => 'everyonesocialbot',
 		'Exalead' => 'exabot',
 		'Facebook' => 'facebook',
@@ -70,6 +78,7 @@ function useronline_get_bots() {
 		'Linkfluence' => 'linkfluence',
 		'Lycos' => 'lycos',
 		'Maui' => 'mauibot',
+		'mediapartners-google' => 'mediapartners-google',
 		'Mediatoolkit' => 'mediatoolkitbot',
 		'MegaIndex' => 'MegaIndex',
 		'MetaFeedly' => 'MetaFeedly',
@@ -122,14 +131,27 @@ function useronline_get_bots() {
 		'Twingly' => 'twingly',
 		'Twitter' => 'twitterbot',
 		'VoilaBot' => 'VoilaBot',
+		'w3c_validator' => 'w3c_validator',
 		'Wget' => 'wget',
 		'WhatsApp' => 'whatsapp',
 		'WhoisSource' => 'surveybot',
 		'WiseNut' => 'zyborg',
+		'WordPress' => 'wordpress',
 		'Wotbox' => 'wotbox',
 		'Xenu Link Sleuth' => 'xenu link sleuth',
 		'XoviBot' => 'xoviBot',
 		'Yahoo' => 'yahoo',
+		'VKshare' => 'vkshare',
+		'URLresolver' => 'urlresolver',
+		'uptimerobot' => 'uptimerobot',
+		'slackbot' => 'slackbot',
+		'showyoubot' => 'showyoubot',
+		'rogerbot' => 'rogerbot',
+		'quora' => 'quora',
+		'outbrain' => 'outbrain',
+		'Yandex' => 'yandex',
+		'Yandex' => 'yandex',
+		'Yandex' => 'yandex',
 		'Yandex' => 'yandex',
 		'YisouSpider' => 'yisouspider'
 	);
